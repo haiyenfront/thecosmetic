@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <link rel='stylesheet' id='camera-css'  href='./libs/css/camera.css' type='text/css' media='all'>
+    <script type='text/javascript' src='./libs/scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='./libs/scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='./libs/scripts/jquery.easing.1.3.js'></script>
+    <script type='text/javascript' src='./libs/scripts/camera.min.js'></script>
+
+    <script>
+        jQuery(function(){
+
+            jQuery('#camera_slider').camera({
+                height: '540px',
+                time: 2000,
+                thumbnails: false,
+                hover: false
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div id="header" class="main">
+        <div class="header-top">
+            <div class="header-top-left" >
+                <span class="active1">
+                    <img src="images/hotline.png" class="hotline">
+                    <strong>0912 345 678</strong>
+                </span>
+                <span style="color: #ababab">Làm việc 7 ngày trong tuần từ 9h00 đến 19h00</span>
+            </div>
+            <div class="header-top-right" style="color: #575858">
+                <span><a href="taikhoan.html">Tài khoản</a></span>
+                <span><a href="kiemtradonhang.html">Kiểm tra đơn hàng</a></span>
+                <span><a href="huongdan.html">Hướng dẫn</a></span>
+                <span><a href="giohang.html"><img src="images/cart.png" class="cart">Giỏ hàng<b>0</b></a></span>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="logo">
+            <a href="./index.html"><img src="images/logo.png" class="icon-logo"></a>
+        </div>
+        <div>
+            <ul class="menu">
+                <li><a href="/" class="active">Trang chủ</a></li>
+                <li><a href="/">Giới thiệu</a></li>
+                <li>
+                    <a href="/">Sản phẩm</a>
+                    <ul class="nav">
+                        <li><a href="san-pham/son-moi.html">Son môi</a></li>
+                        <li><a href="san-pham/son-moi.html">Son môi</a></li>
+                        <li><a href="san-pham/son-moi.html">Son môi</a></li>
+                        <li><a href="san-pham/son-moi.html">Son môi</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">Tin tức</a></li>
+                <li><a href="/">Khuyến mãi</a></li>
+                <li><a href="/">Liên hệ</a></li>
+                <li><span><img src="images/search.png"></span></li>
+            </ul>
+        </div>
+    </div>
+    <div id="slide" class="slide">
+        <div class="camera_wrap camera_azure_skin" id="camera_slider">
+            <div data-thumb="../images/slides/thumbs/bridge.jpg" data-src="images/slide.png">
+                <div class="camera_caption fadeFromBottom">
+                    <h3>LÀM THẾ NÀO ĐỂ DA MẶT <p>LUÔN SÁNG MỊN</p></h3>
+                    <p class="nd1">
+                        Trước bất kỳ cách làm trắng da mặt nào cũng vậy, điều bạn cần
+                        lưu ý đầu tiên là nên làm sạch da nhằm giúp lỗ chân lông thông
+                        thoáng và các dưỡng chất sẽ được thẩm thấu đều vào da.
+                    </p>
+                    <b><a href="xemchitiet.html">xem chi tiết</a></b>
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/leaf.jpg" data-src="images/slide.png">
+                <div class="camera_caption fadeFromBottom">
+                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/road.jpg" data-src="images/slide.png">
+                <div class="camera_caption fadeFromBottom">
+                    <em>It's completely free</em> (even if a donation is appreciated)
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/sea.jpg" data-src="images/slide.png">
+                <div class="camera_caption fadeFromBottom">
+                    Camera slideshow provides many options <em>to customize your project</em> as more as possible
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/shelter.jpg" data-src="images/slide.png">
+                <div class="camera_caption fadeFromBottom">
+                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
+                </div>
+            </div>
+            <div data-thumb="../images/slides/thumbs/tree.jpg" data-src="images/slide.png">
+                <div class="camera_caption fadeFromBottom">
+                    Different color skins and layouts available, <em>fullscreen ready too</em>
+                </div>
+            </div>
+        </div><!-- #camera_wrap_1 -->
+        <!--<img src="images/slide.png" class="hinh-slide">-->
+    </div>
+    <div id="container">
+        <div id="category" class="category">
+            <div class="category-box">
+                <div class="panel-category">
+                    <div class="category-title">
+                        <h3>Trang Điểm Môi</h3>
+                    </div>
+                    <div class="category-image">
+                        <a href="./index.html"><img src="./images/sp1.png" alt="sp1"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-box">
+                <div class="panel-category">
+                    <div class="category-title">
+                        <h3>Trang Điểm Mắt</h3>
+                    </div>
+                    <div class="category-image">
+                        <a href="./index.html"><img src="./images/sp2.png" alt="sp1"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-box">
+                <div class="panel-category">
+                    <div class="category-title">
+                        <h3>Nước Hoa</h3>
+                    </div>
+                    <div class="category-image">
+                        <a href="./index.html"><img src="./images/sp3.png" alt="sp1"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner1">
+        <img src="images/banner1.png" />
+        <div class="banner1-content">
+            <div class="sub-banner">
+                CHÚNG TÔI GIỚI THIỆU ĐẾN BẠN
+                NHỮNG SẢN PHẨM MỚI NHẤT THEO XU HƯỚNG
+                LÀM ĐẸP HIỆN ĐẠI CỦA PHỤ NỮ TOÀN CẦU
+            </div>
+        </div>
+    </div>
+    <div id="product1">
+        <div class="title1">
+            <span class="title-left"><img src="images/title-left.png" alt="title-left"></span>
+            <span class="title-right"><img src="images/title-right.png" alt="title-right"></span>
+            <h1>sản phẩm mới</h1>
+            <p>Chúng tôi luôn mang đến những sản phẩm mới nhất!</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
